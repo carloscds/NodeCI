@@ -7,7 +7,7 @@ var server = http.createServer(function(request, response) {
 
 });
 
-var port = process.env.PORT || 1337;
+var port = process.env.PORT || 8080;
 server.listen(port);
 
 console.log("Executando em http://localhost:%d", port);
